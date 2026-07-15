@@ -69,26 +69,28 @@
               </a>
             </div>
 
-            <dl class="proof-row" aria-label="Project signals">
-              <div>
-                <dt data-i18n="starsLabel">GitHub Stars</dt>
-                <dd data-stars>...</dd>
-              </div>
-              <div>
-                <dt data-i18n="licenseLabel">网站代码</dt>
-                <dd>AGPL-3.0+</dd>
-              </div>
-              <div>
-                <dt data-i18n="privacyLabel">文件处理</dt>
-                <dd data-i18n="privacyValue">本地设备</dd>
-              </div>
-            </dl>
+            <ul class="proof-row" aria-label="Project signals">
+              <li>
+                <span class="proof-label" data-i18n="starsLabel">Stars</span>
+                <strong class="proof-value" data-stars>...</strong>
+              </li>
+              <li class="separator" aria-hidden="true">·</li>
+              <li>
+                <span class="proof-label" data-i18n="licenseLabel">开源协议</span>
+                <strong class="proof-value">AGPL-3.0+</strong>
+              </li>
+              <li class="separator" aria-hidden="true">·</li>
+              <li>
+                <span class="proof-label" data-i18n="privacyLabel">文件处理</span>
+                <strong class="proof-value" data-i18n="privacyValue">本地设备</strong>
+              </li>
+            </ul>
 
             <ul class="format-rail" aria-label="Conversion categories">
               <li><span>MP4</span><small data-i18n="railVideo">视频</small></li>
               <li><span>M4A</span><small data-i18n="railAudio">音频</small></li>
               <li><span>JPG</span><small data-i18n="railImage">图片</small></li>
-              <li><span>PNG</span><small>PDF</small></li>
+              <li><span>PNG</span><small data-i18n="railImage">图片</small></li>
               <li><span>PDF</span><small data-i18n="railOffice">文档</small></li>
             </ul>
           </div>
@@ -134,7 +136,7 @@
       </section>
 
       <section class="section intro-strip" aria-label="Positioning">
-        <div class="shell intro-grid">
+        <div class="shell intro-center">
           <p class="section-kicker" data-i18n="introKicker">为日常文件流转设计</p>
           <p class="intro-text" data-i18n="introText">
             ZenConverter 把常见转换任务收在一个安静、可靠的界面里。选择目标格式，选中文件，剩下的交给本机处理。
@@ -175,25 +177,28 @@
 
       <section class="section privacy-section" id="privacy" aria-labelledby="privacy-title">
         <div class="shell privacy-grid">
-          <div class="privacy-panel">
+          <div class="privacy-header">
             <p class="section-kicker" data-i18n="privacyKicker">隐私默认开启</p>
             <h2 id="privacy-title" data-i18n="privacyTitle">转换应该发生在文件所在的地方。</h2>
           </div>
-          <div class="privacy-copy">
-            <p data-i18n="privacyBody">
+          <div class="privacy-card">
+            <p class="privacy-body" data-i18n="privacyBody">
               ZenConverter 的产品承诺很直接：文件留在这台设备。它适合处理私密素材、临时交付、客户文件，以及不想上传到陌生服务的日常任务。
             </p>
-            <div class="workflow">
-              <div>
+            <ul class="workflow">
+              <li>
+                <span class="step-num">1</span>
                 <span data-i18n="stepOne">选择目标格式</span>
-              </div>
-              <div>
+              </li>
+              <li>
+                <span class="step-num">2</span>
                 <span data-i18n="stepTwo">选择本地文件</span>
-              </div>
-              <div>
+              </li>
+              <li>
+                <span class="step-num">3</span>
                 <span data-i18n="stepThree">导出结果</span>
-              </div>
-            </div>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
