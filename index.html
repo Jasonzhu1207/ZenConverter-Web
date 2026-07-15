@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ZenConverter | Local-first file conversion</title>
+    <meta
+      name="description"
+      content="ZenConverter is a local-first file conversion app for video, audio, images, PDFs, and documents."
+    />
+    <meta name="theme-color" content="#f8f9f4" />
+    <meta name="license" content="Website source code: AGPL-3.0-or-later. Copy, screenshots, and brand assets: all rights reserved." />
+    <link rel="icon" href="./assets/brand/zenconverter-icon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="./assets/brand/zenconverter-icon.png" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip">跳到主要内容</a>
+
+    <header class="site-header" aria-label="Primary">
+      <nav class="nav-shell">
+        <a class="brand" href="#top" aria-label="ZenConverter home">
+          <img class="brand-mark" src="./assets/brand/zenconverter-icon.png" alt="" width="40" height="40" />
+          <span>ZenConverter</span>
+        </a>
+
+        <div class="nav-links" aria-label="Section links">
+          <a href="#formats" data-i18n="navFormats">格式</a>
+          <a href="#privacy" data-i18n="navPrivacy">隐私</a>
+          <a href="https://github.com/Jasonzhu1207/ZenConverter/releases" target="_blank" rel="noreferrer" data-i18n="navDownload">下载</a>
+        </div>
+
+        <div class="nav-actions">
+          <a
+            class="star-pill"
+            href="https://github.com/Jasonzhu1207/ZenConverter"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="GitHub stars"
+          >
+            <span aria-hidden="true">★</span>
+            <span data-stars>...</span>
+          </a>
+          <div class="language-toggle" aria-label="Language">
+            <button type="button" data-lang-button="zh" aria-pressed="true">中文</button>
+            <button type="button" data-lang-button="en" aria-pressed="false">EN</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="shell hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow" data-i18n="heroEyebrow">本地优先的格式转换</p>
+            <h1 id="hero-title">ZenConverter</h1>
+            <p class="hero-lede" data-i18n="heroLede">
+              视频、音频、图片、PDF 和 Office 文件，在你的设备上完成转换。文件不必离开本机。
+            </p>
+
+            <div class="hero-actions" id="download">
+              <a class="button primary" href="https://github.com/Jasonzhu1207/ZenConverter/releases" target="_blank" rel="noreferrer">
+                <span data-i18n="downloadCta">下载最新版本</span>
+                <span class="button-icon" aria-hidden="true">↗</span>
+              </a>
+              <a class="button secondary" href="https://github.com/Jasonzhu1207/ZenConverter" target="_blank" rel="noreferrer">
+                <span data-i18n="repoCta">查看仓库</span>
+              </a>
+            </div>
+
+            <dl class="proof-row" aria-label="Project signals">
+              <div>
+                <dt data-i18n="starsLabel">GitHub Stars</dt>
+                <dd data-stars>...</dd>
+              </div>
+              <div>
+                <dt data-i18n="licenseLabel">网站代码</dt>
+                <dd>AGPL-3.0+</dd>
+              </div>
+              <div>
+                <dt data-i18n="privacyLabel">文件处理</dt>
+                <dd data-i18n="privacyValue">本地设备</dd>
+              </div>
+            </dl>
+
+            <ul class="format-rail" aria-label="Conversion categories">
+              <li><span>MP4</span><small data-i18n="railVideo">视频</small></li>
+              <li><span>M4A</span><small data-i18n="railAudio">音频</small></li>
+              <li><span>JPG</span><small data-i18n="railImage">图片</small></li>
+              <li><span>PNG</span><small>PDF</small></li>
+              <li><span>PDF</span><small data-i18n="railOffice">文档</small></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="ZenConverter screenshots on phone, foldable, and tablet">
+            <div class="device-stage">
+              <img
+                class="device device-pad"
+                src="./assets/screenshots/zh/pad.png"
+                data-src-zh="./assets/screenshots/zh/pad.png"
+                data-src-en="./assets/screenshots/en/pad.png"
+                data-alt-zh="ZenConverter 在横屏平板上的首页截图"
+                data-alt-en="ZenConverter home screen on a landscape tablet"
+                alt="ZenConverter 在横屏平板上的首页截图"
+                width="2224"
+                height="1421"
+              />
+              <img
+                class="device device-fold"
+                src="./assets/screenshots/zh/fold.png"
+                data-src-zh="./assets/screenshots/zh/fold.png"
+                data-src-en="./assets/screenshots/en/fold.png"
+                data-alt-zh="ZenConverter 在 Pixel Fold 上的首页截图"
+                data-alt-en="ZenConverter home screen on a Pixel Fold"
+                alt="ZenConverter 在 Pixel Fold 上的首页截图"
+                width="2201"
+                height="2268"
+              />
+              <img
+                class="device device-phone"
+                src="./assets/screenshots/zh/phone.png"
+                data-src-zh="./assets/screenshots/zh/phone.png"
+                data-src-en="./assets/screenshots/en/phone.png"
+                data-alt-zh="ZenConverter 在手机上的首页截图"
+                data-alt-en="ZenConverter home screen on a phone"
+                alt="ZenConverter 在手机上的首页截图"
+                width="1410"
+                height="2968"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro-strip" aria-label="Positioning">
+        <div class="shell intro-grid">
+          <p class="section-kicker" data-i18n="introKicker">为日常文件流转设计</p>
+          <p class="intro-text" data-i18n="introText">
+            ZenConverter 把常见转换任务收在一个安静、可靠的界面里。选择目标格式，选中文件，剩下的交给本机处理。
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="formats" aria-labelledby="formats-title">
+        <div class="shell split-section">
+          <div>
+            <p class="section-kicker" data-i18n="formatsKicker">转换类型</p>
+            <h2 id="formats-title" data-i18n="formatsTitle">把杂乱格式收进同一个工作台。</h2>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <span class="feature-icon video" aria-hidden="true"></span>
+              <h3 data-i18n="featureVideoTitle">视频</h3>
+              <p data-i18n="featureVideoBody">转换或压缩视频，快速输出常用播放和兼容格式。</p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-icon audio" aria-hidden="true"></span>
+              <h3 data-i18n="featureAudioTitle">音频</h3>
+              <p data-i18n="featureAudioBody">提取、转换音频，为播客、素材和移动端播放准备文件。</p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-icon image" aria-hidden="true"></span>
+              <h3 data-i18n="featureImageTitle">图片</h3>
+              <p data-i18n="featureImageBody">批量处理图片格式，在分享、归档和网页使用之间切换。</p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-icon pdf" aria-hidden="true"></span>
+              <h3 data-i18n="featurePdfTitle">PDF 与文档</h3>
+              <p data-i18n="featurePdfBody">渲染 PDF 页面，转换 Office 文件，把输出整理成可交付格式。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section privacy-section" id="privacy" aria-labelledby="privacy-title">
+        <div class="shell privacy-grid">
+          <div class="privacy-panel">
+            <p class="section-kicker" data-i18n="privacyKicker">隐私默认开启</p>
+            <h2 id="privacy-title" data-i18n="privacyTitle">转换应该发生在文件所在的地方。</h2>
+          </div>
+          <div class="privacy-copy">
+            <p data-i18n="privacyBody">
+              ZenConverter 的产品承诺很直接：文件留在这台设备。它适合处理私密素材、临时交付、客户文件，以及不想上传到陌生服务的日常任务。
+            </p>
+            <div class="workflow">
+              <div>
+                <span data-i18n="stepOne">选择目标格式</span>
+              </div>
+              <div>
+                <span data-i18n="stepTwo">选择本地文件</span>
+              </div>
+              <div>
+                <span data-i18n="stepThree">导出结果</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div>
+          <a class="brand footer-brand" href="#top">
+            <img class="brand-mark" src="./assets/brand/zenconverter-icon.png" alt="" width="40" height="40" />
+            <span>ZenConverter</span>
+          </a>
+          <p data-i18n="footerTagline">一个简单、安静、可信赖的本地格式转换器。</p>
+        </div>
+        <div class="footer-links">
+          <a href="https://github.com/Jasonzhu1207/ZenConverter" target="_blank" rel="noreferrer" data-i18n="footerRepo">GitHub 仓库</a>
+          <a href="https://github.com/Jasonzhu1207/ZenConverter/releases" target="_blank" rel="noreferrer" data-i18n="footerReleases">下载发布版</a>
+        </div>
+        <p class="legal" data-i18n="legal">
+          网站代码以 AGPL-3.0-or-later 授权。文案、截图和品牌素材 Copyright 保留，未经许可不可复用。
+        </p>
+      </div>
+    </footer>
+
+    <script src="./assets/js/main.js" defer></script>
+  </body>
+</html>
