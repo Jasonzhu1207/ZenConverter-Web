@@ -2,13 +2,13 @@ const repoApiUrl = "https://api.github.com/repos/Jasonzhu1207/ZenConverter";
 
 const copy = {
   zh: {
-    title: "ZenConverter | 本地优先的格式转换",
-    description: "ZenConverter 是一款本地优先的格式转换软件，支持视频、音频、图片、PDF 和文档转换。",
+    title: "ZenConverter | 本地格式转换",
+    description: "ZenConverter 是一款本地格式转换软件，支持视频、音频、图片、PDF 和文档转换。",
     skip: "跳到主要内容",
     navFormats: "格式",
     navPrivacy: "隐私",
     navDownload: "下载",
-    heroEyebrow: "本地优先的格式转换",
+    heroEyebrow: "本地格式转换",
     heroLede: "视频、音频、图片、PDF 和 Office 文件，在你的设备上完成转换。文件不必离开本机。",
     downloadCta: "下载最新版本",
     repoCta: "查看仓库",
@@ -48,13 +48,13 @@ const copy = {
     legal: "网站代码以 AGPL-3.0-or-later 授权。文案、截图和品牌素材 Copyright 保留，未经许可不可复用。"
   },
   en: {
-    title: "ZenConverter | Local-first file conversion",
-    description: "ZenConverter is a local-first file conversion app for video, audio, images, PDFs, and documents.",
+    title: "ZenConverter | Local file conversion",
+    description: "ZenConverter is a local file conversion app for video, audio, images, PDFs, and documents.",
     skip: "Skip to main content",
     navFormats: "Formats",
     navPrivacy: "Privacy",
     navDownload: "Download",
-    heroEyebrow: "Local-first conversion",
+    heroEyebrow: "Local conversion",
     heroLede: "Convert video, audio, images, PDFs, and Office files on your device. Files do not need to leave the machine.",
     downloadCta: "Download latest",
     repoCta: "View repository",
