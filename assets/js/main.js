@@ -6,7 +6,7 @@ const copy = {
     description: "ZenConverter 是一款本地格式转换软件，支持视频、音频、图片、PDF 和文档转换。",
     skip: "跳到主要内容",
     navFormats: "格式",
-    navPrivacy: "隐私",
+    navPrivacy: "隐私政策",
     navDownload: "下载",
     heroEyebrow: "本地格式转换",
     heroLede: "视频、音频、图片、PDF 和 Office 文件，在你的设备上完成转换。文件不必离开本机。",
@@ -45,6 +45,7 @@ const copy = {
     footerTagline: "一个简单、安静、可信赖的本地格式转换器。",
     footerRepo: "GitHub 仓库",
     footerReleases: "下载发布版",
+    footerPrivacy: "隐私政策",
     legal: "网站代码以 AGPL-3.0-or-later 授权。文案、截图和品牌素材 Copyright 保留，未经许可不可复用。"
   },
   en: {
@@ -52,7 +53,7 @@ const copy = {
     description: "ZenConverter is a local file conversion app for video, audio, images, PDFs, and documents.",
     skip: "Skip to main content",
     navFormats: "Formats",
-    navPrivacy: "Privacy",
+    navPrivacy: "Privacy policy",
     navDownload: "Download",
     heroEyebrow: "Local conversion",
     heroLede: "Convert video, audio, images, PDFs, and Office files on your device. Files do not need to leave the machine.",
@@ -91,6 +92,7 @@ const copy = {
     footerTagline: "A simple, quiet, trustworthy local file converter.",
     footerRepo: "GitHub repository",
     footerReleases: "Download releases",
+    footerPrivacy: "Privacy policy",
     legal: "Website source code is licensed AGPL-3.0-or-later. Copy, screenshots, and brand assets are Copyright reserved and may not be reused without permission."
   }
 };

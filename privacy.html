@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ZenConverter 隐私政策</title>
+    <meta
+      name="description"
+      content="ZenConverter 隐私政策：了解应用如何在设备上处理文件、元数据、PDF 密码和应用设置。"
+    />
+    <meta name="theme-color" content="#f8f9f4" />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" href="./assets/brand/zenconverter-icon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="./assets/brand/zenconverter-icon.png" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/privacy.css" />
+  </head>
+  <body class="policy-page">
+    <a class="skip-link" href="#policy-content">跳到政策正文</a>
+
+    <header class="policy-header">
+      <nav class="policy-nav shell" aria-label="主导航">
+        <a class="brand" href="./index.html" aria-label="返回 ZenConverter 首页">
+          <img class="brand-mark" src="./assets/brand/zenconverter-icon.png" alt="" width="40" height="40" />
+          <span>ZenConverter</span>
+        </a>
+        <a class="home-link" href="./index.html">
+          <span aria-hidden="true">←</span>
+          <span>返回首页</span>
+        </a>
+      </nav>
+    </header>
+
+    <main id="policy-content">
+      <header class="policy-hero shell">
+        <div class="policy-heading">
+          <p class="section-kicker">Privacy policy</p>
+          <h1>ZenConverter<br />隐私政策</h1>
+          <p class="policy-date">最后更新：<time datetime="2026-08-11">2026-08-11</time></p>
+        </div>
+        <div class="local-note">
+          <span class="local-note-mark" aria-hidden="true"></span>
+          <p>ZenConverter 在设备上处理文件。你选择的文件、文件内容和 PDF 密码不会上传到开发者控制的服务器。应用没有账号、广告、使用行为分析或崩溃上报。</p>
+        </div>
+      </header>
+
+      <div class="policy-layout shell">
+        <aside class="policy-index" aria-label="政策目录">
+          <p>本页内容</p>
+          <nav>
+            <a href="#file-processing">文件处理</a>
+            <a href="#metadata">元数据安全</a>
+            <a href="#pdf-passwords">PDF 密码</a>
+            <a href="#network">联网与外部服务</a>
+            <a href="#permissions">权限与其他应用</a>
+            <a href="#retention">保留、删除与 Android 备份</a>
+            <a href="#contact">联系</a>
+          </nav>
+        </aside>
+
+        <article class="policy-copy">
+          <section id="file-processing">
+            <h2>文件处理</h2>
+            <p>应用只读取你通过 Android 文件选择器、分享或“打开方式”交给它的文件。文件提供方无法直接处理时，应用会在缓存中创建临时副本。结果保存在系统默认目录或你选择的文件夹。</p>
+            <p>任务结束时，应用会尝试删除临时文件。如果应用或设备意外中断，缓存中可能暂时留下副本。</p>
+          </section>
+
+          <section id="metadata">
+            <h2>元数据安全</h2>
+            <p>元数据检查只针对你选中的文件。图片检查可能显示照片中已有的位置、拍摄时间、相机、软件、说明等信息；视频检查目前只显示基础技术信息。</p>
+            <p>清理 JPEG 会直接修改所选文件。为了支持恢复，被移除的元数据会连同原文件名、尺寸、匹配用的 SHA-256 哈希和备份时间保存在应用私有目录。恢复后不会自动删除备份，当前版本也没有单独的删除按钮。</p>
+          </section>
+
+          <section id="pdf-passwords">
+            <h2>PDF 密码</h2>
+            <p>密码只用于打开、加密或解密你选择的 PDF。应用不会把密码写入设置或任务历史，也不会发送到网络。任务执行期间，密码会短暂保存在内存中，随后从任务数据中清除。</p>
+          </section>
+
+          <section id="network">
+            <h2>联网与外部服务</h2>
+            <p>应用不会在后台检查更新。带有“检查更新”功能的版本只会在你点击后连接 GitHub；如果你选择下载更新，还会连接 GitHub 的下载服务。</p>
+            <p>和普通网站一样，GitHub 会按其隐私政策收到 IP 地址、User-Agent 等连接信息，但不会收到你选择的文件、元数据或 PDF 密码。仓库、赞助和下载链接会交给系统浏览器打开，相关网站和浏览器各自的隐私规则适用。</p>
+          </section>
+
+          <section id="permissions">
+            <h2>权限与其他应用</h2>
+            <p>文件权限只用于读取你选择的输入、保存结果或原地清理 JPEG；旧版 Android 可能额外请求存储权限。通知和媒体处理前台服务用于显示长任务进度。</p>
+            <p>GitHub 分发版只在你选择安装已下载的更新时使用请求安装应用权限。应用不申请位置、相机、麦克风、联系人或所有文件访问权限。你主动分享或打开结果时，Android 会把相应文件交给你选择的应用。</p>
+          </section>
+
+          <section id="retention">
+            <h2>保留、删除与 Android 备份</h2>
+            <p>语言、主题色、是否使用自定义输出位置，以及所选文件夹的 URI 和显示名称，会保存在应用私有设置中。源文件和转换结果由你在文件系统中管理；清除应用数据不会删除共享目录里的文件。</p>
+            <p>清除应用数据或卸载应用，会删除设备上的设置、缓存和应用私有元数据备份。当前应用允许 Android 系统备份；是否备份以及备份到哪里，由设备、Android 版本和账号设置决定，系统备份中可能包含应用设置和私有元数据备份。系统中的备份副本需在设备备份设置里管理。</p>
+            <p>应用没有在线账号，也没有保存在开发者服务器上的转换文件可供删除。</p>
+          </section>
+
+          <section id="contact">
+            <h2>联系</h2>
+            <p>如有隐私问题，请使用项目页或应用分发页列出的当前联系方式。不要在公开反馈中附上文件、密码或敏感元数据。</p>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <footer class="policy-footer">
+      <div class="shell policy-footer-inner">
+        <p>ZenConverter</p>
+        <a href="https://github.com/Jasonzhu1207/ZenConverter" target="_blank" rel="noreferrer">项目页</a>
+      </div>
+    </footer>
+  </body>
+</html>
